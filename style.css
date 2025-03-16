@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family:Sans;
+    src: url(/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+body{
+   
+    font-family: Sans;
+    background-color: hsl(0, 0%, 97%);
+}
+
+#container{
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 15px;
+    justify-content: center;
+    padding: 15px;
+}
+
+#container3{
+    display: grid;
+    gap: 15px;
+}
+#CreateA{
+    padding: 25px;
+    background-color: hsl(31, 66%, 93%);
+    width: 250px;
+    border-radius: 15px;
+}
+
+#i1{
+    color: hsl(256, 67%, 59%);
+}
+
+#Create{
+    padding: 15px;
+    width: 200px;
+}
+
+#UsingAiCo{
+    padding: 15px;
+    width: 270px;
+    border-radius: 15px;
+    background-color:  hsl(39, 100%, 71%);
+}
+
+#UsingAi{
+    padding: 15px;
+    width: 200px;
+}
+
+#FiveStarCo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    padding: 25px;
+    width: 250px;
+    color: aliceblue;
+    background-color:  hsl(256, 67%, 59%);
+}
+
+#FiveStar{
+    width: 150px;
+    padding: 15px;
+}
+
+#platformsCo{
+    background-color: hsl(0, 0%, 100%);
+    width: 270px;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: 400;
+}
+
+#platforms{
+    width: 250px;
+}
+
+#AudienceCo{
+    background-color: rgb(254, 255, 255);
+    padding: 15px;
+    width: 270px;
+    border-radius: 15px;
+}
+#Audience{
+    padding: 15px;
+    width: 150px;
+}
+
+#scheduleCo{
+    padding: 15px;
+    font-weight: 500;
+    width: 270px;
+    height: 170px;
+    background-color:  hsl(39, 100%, 71%);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#schedule{
+    width: 200px;
+}
+
+#growFollowersCo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 300px;
+    border-radius: 15px;
+    height: 350px;
+    text-align: center;
+    background-color: hsl(256, 67%, 59%);
+}
+
+#txt{
+    width: 190px;
+}
+
+#growFollowers{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 250px;
+}
+
+#PostCo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 15px;
+    font-weight: 400;
+    width: 270px;
+    background-color: hsl(254, 88%, 90%);
+}
+
+#Posts{
+    padding: 15px;
+    width: 250px;
+}
+
+    @media (min-width: 1025px) {
+        
+        #container{
+            display: grid;
+            justify-items: center;
+            gap: 5px;
+            grid-template-columns: repeat(4, auto);
+        }
+
+        #container2{
+            display: grid;
+            position: absolute;
+            top: 230px;
+            left: 380px;
+            gap: 25px;
+        }
+        #container3{
+            display: grid;
+            position: absolute;
+            top: 230px;
+            right: 65px;
+            gap: 15px;
+        }
+
+        #CreateA{
+            height: 350px;
+        }
+
+        #Create{
+            padding: 30px;
+        }
+
+        #UsingAiCo{
+            position: relative;
+            bottom: 70px;
+        }
+        #FiveStarCo{
+        width: 550px;
+        justify-content: center;
+        font-weight: larger;
+        grid-column: span 2;
+        height: 150px;
+
+        }
+        #growFollowersCo{
+        display: flex;
+        flex-direction: row;
+        width: 610px;
+        height: 250px;
+        }
+        
+        #AudienceCo, #platformsCo{
+            width: 250px;
+            height: 222px;
+        }
+
+        #scheduleCo{
+            font-size: larger;
+            font-weight: 500;
+            height: 235px;
+        }
+        #PostCo{
+            position: relative;
+            height: 450px;
+        }
+
+        #schedule{
+            padding: 15px;
+            padding-top: 75px;
+        }
+    }
